@@ -1,6 +1,6 @@
 <?php
     $php_array_filter = function() {
-        echo('Array Filter in PHP<br /><br />');
+        echo('JavaScript-like Array.filter() in PHP Array<br /><br />');
 
         $numbers = [12, 34, 27, 23, 65, 93, 36, 87, 4, 254];
 
@@ -11,12 +11,12 @@
 
         $odd_numbers_only = array_filter($numbers, fn($number) => $number % 2 !== 0);
         $odd_numbers_only_formatted = json_encode(array_values($odd_numbers_only));
-        echo("<pre>even numbers only: $odd_numbers_only_formatted</pre><br /><br />");
+        echo("<pre>odd numbers only: $odd_numbers_only_formatted</pre><br /><br />");
         // odd numbers only: [27,23,65,93,87]
 
         // ======================================================================================================================================================
     
-        echo('Associative Array Filter in PHP<br /><br />');
+        echo('JavaScript-like Array.filter() in PHP Associative Array<br /><br />');
         
         $products = [
             ['id' => 'id_1', 'price' => 30],

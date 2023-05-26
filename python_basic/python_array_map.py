@@ -1,8 +1,8 @@
 import json
 
 
-def python_list_map():
-    print('List Map in Python\n')
+def python_array_map():
+    print('JavaScript-like Array.map() in Python List\n')
 
     numbers = [12, 34, 27, 23, 65, 93, 36, 87, 4, 254]
     numbers_labeled = list(map(lambda number: {number: 'even' if number % 2 == 0 else 'odd'}, numbers))
@@ -11,7 +11,7 @@ def python_list_map():
 
     # ======================================================================================================================================================
 
-    print('List of Dictionary Map in Python\n')
+    print('JavaScript-like Array.map() in Python List of Dict\n')
 
     products = [
         {'id': 'id_1', 'price': 30},
@@ -48,4 +48,4 @@ def python_list_map():
 
 
 if __name__ == '__main__':
-    python_list_map()
+    python_array_map()

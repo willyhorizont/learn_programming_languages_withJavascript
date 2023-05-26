@@ -1,7 +1,10 @@
-# from python_list_filter import python_list_filter
-# from python_list_find import python_list_find
-# from python_list_map import python_list_map
-# from python_list_reduce import python_list_reduce
+# from python_array_filter import python_array_filter
+# from python_array_find import python_array_find
+# from python_array_map import python_array_map
+# from python_array_includes import python_array_includes
+# from python_array_reduce import python_array_reduce
+# from python_array_every import python_array_every
+# from python_array_some import python_array_some
 # from python_fibonacci import python_fibonacci
 # from python_ternary_operator import python_ternary_operator
 # from python_spread_operator import python_spread_operator
@@ -16,10 +19,13 @@
 
 if __name__ == '__main__':
     print()
-    # python_list_filter()
-    # python_list_find()
-    # python_list_map()
-    # python_list_reduce()
+    # python_array_filter()
+    # python_array_find()
+    # python_array_map()
+    # python_array_includes()
+    # python_array_reduce()
+    # python_array_every()
+    # python_array_some()
     # python_fibonacci()
     # python_ternary_operator()
     # python_spread_operator()

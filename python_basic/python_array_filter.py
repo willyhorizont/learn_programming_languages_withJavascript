@@ -1,8 +1,8 @@
 import json
 
 
-def python_list_filter():
-    print('List Filter in Python\n')
+def python_array_filter():
+    print('JavaScript-like Array.filter() in Python List\n')
 
     numbers = [12, 34, 27, 23, 65, 93, 36, 87, 4, 254]
 
@@ -18,7 +18,7 @@ def python_list_filter():
 
     # ======================================================================================================================================================
 
-    print('List of Dictionary Filter in Python\n')
+    print('JavaScript-like Array.filter() in Python List of Dict\n')
 
     products = [
         {'id': 'id_1', 'price': 30},
@@ -43,4 +43,4 @@ def python_list_filter():
 
 
 if __name__ == '__main__':
-    python_list_filter()
+    python_array_filter()

@@ -1,5 +1,5 @@
 const javascriptArrayFilter = () => {
-    console.log('Array Filter in JavaScript\n\n');
+    console.log('Array.filter() in JavaScript Array\n\n');
 
     const numbers = [12, 34, 27, 23, 65, 93, 36, 87, 4, 254];
 
@@ -13,7 +13,7 @@ const javascriptArrayFilter = () => {
 
     // ======================================================================================================================================================
 
-    console.log('Array of Objects Filter in JavaScript\n\n');
+    console.log('Array.filter() in JavaScript Array of Objects\n\n');
 
     const products = [
         { id: 'id_1', price: 30 },

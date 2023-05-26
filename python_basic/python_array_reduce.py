@@ -2,8 +2,8 @@ from functools import reduce
 import json
 
 
-def python_list_reduce():
-    print('List Reduce in Python\n')
+def python_array_reduce():
+    print('JavaScript-like Array.reduce() in Python List\n')
 
     today_money_spents = [4.99, 15, 9.99, 999.9, 2, 60]
     today_money_spents_total = reduce(lambda total_money_spent, current_money_spent: total_money_spent + current_money_spent, today_money_spents, 0)
@@ -12,7 +12,7 @@ def python_list_reduce():
 
     # ======================================================================================================================================================
 
-    print('List of Dictionary Reduce in Python\n')
+    print('JavaScript-like Array.reduce() in Python List of Dict\n')
 
     products = [
         {'id': 'id_1', 'price': 30},
@@ -50,4 +50,4 @@ def python_list_reduce():
 
 
 if __name__ == '__main__':
-    python_list_reduce()
+    python_array_reduce()

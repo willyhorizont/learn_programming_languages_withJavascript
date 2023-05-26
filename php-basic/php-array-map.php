@@ -1,6 +1,6 @@
 <?php
     $php_array_map = function() {
-        echo('Array Map in PHP<br /><br />');
+        echo('JavaScript-like Array.map() in PHP Array<br /><br />');
 
         $numbers = [12, 34, 27, 23, 65, 93, 36, 87, 4, 254];
         $numbers_labeled = array_map(fn($number) => [$number => $number % 2 === 0 ? 'even' : 'odd'], $numbers);
@@ -10,7 +10,7 @@
 
         // ======================================================================================================================================================
     
-        echo('Associative Array Map in PHP<br /><br />');
+        echo('JavaScript-like Array.map() in PHP Associative Array<br /><br />');
         
         $products = [
             ['id' => 'id_1', 'price' => 30],

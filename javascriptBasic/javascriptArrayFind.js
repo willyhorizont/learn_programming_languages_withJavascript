@@ -1,19 +1,19 @@
 const javascriptArrayFind = () => {
-    console.log('Array Find in JavaScript\n\n');
+    console.log('Array.find() in JavaScript Array\n\n');
 
     const numbers = [12, 34, 27, 23, 65, 93, 36, 87, 4, 254];
 
     const evenNumberFound = numbers.find((number) => number % 2 === 0);
     console.log('even number found:', JSON.stringify(evenNumberFound));
-    // even numbers only: 12
+    // even number found: 12
 
     const oddNumberFound = numbers.find((number) => number % 2 !== 0);
     console.log('odd number found:', JSON.stringify(oddNumberFound), '\n\n\n');
-    // odd numbers only: 27
+    // odd number found: 27
 
     // ======================================================================================================================================================
 
-    console.log('Array of Objects Find in JavaScript\n\n');
+    console.log('Array.find() in JavaScript Array of Objects\n\n');
 
     const products = [
         { id: 'id_1', price: 30 },

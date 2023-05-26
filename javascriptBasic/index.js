@@ -1,6 +1,9 @@
 // import javascriptArrayFilter from './javascriptArrayFilter.js';
 // import javascriptArrayFind from './javascriptArrayFind.js';
 // import javascriptArrayMap from './javascriptArrayMap.js';
+// import javascriptArrayIncludes from './javascriptArrayIncludes.js';
+// import javascriptArrayEvery from './javascriptArrayEvery.js';
+// import javascriptArraySome from './javascriptArraySome.js';
 // import javascriptArrayReduce from './javascriptArrayReduce.js';
 // import javascriptFibonacci from './javascriptFibonacci.js';
 // import javascriptTernaryOperator from './javascriptTernaryOperator.js';
@@ -16,6 +19,9 @@
 // javascriptArrayFilter();
 // javascriptArrayFind();
 // javascriptArrayMap();
+// javascriptArrayIncludes();
+// javascriptArrayEvery();
+// javascriptArraySome();
 // javascriptArrayReduce();
 // javascriptFibonacci();
 // javascriptTernaryOperator();

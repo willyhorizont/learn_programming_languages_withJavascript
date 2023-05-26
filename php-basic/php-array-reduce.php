@@ -1,6 +1,6 @@
 <?php
     $php_array_reduce = function() {
-        echo('Array Reduce in PHP<br /><br />');
+        echo('JavaScript-like Array.reduce() in PHP Array<br /><br />');
 
         $today_money_spents = [4.99, 15, 9.99, 999.9, 2, 60];
         $today_money_spents_total = array_reduce($today_money_spents,  fn($total_money_spent, $current_money_spent) => $total_money_spent + $current_money_spent, 0);
@@ -9,7 +9,7 @@
 
         // ======================================================================================================================================================
 
-        echo('Associative Array Reduce in PHP<br /><br />');
+        echo('JavaScript-like Array.reduce() in PHP Associative Array<br /><br />');
         
         $products = [
             ['id' => 'id_1', 'price' => 30],

@@ -16,6 +16,12 @@
             // $php_array_find();
             // require 'php-array-map.php';
             // $php_array_map();
+            // require 'php-array-includes.php';
+            // $php_array_includes();
+            // require 'php-array-every.php';
+            // $php_array_every();
+            // require 'php-array-some.php';
+            // $php_array_some();
             // require 'php-array-reduce.php';
             // $php_array_reduce();
             // require 'php-fibonacci.php';
