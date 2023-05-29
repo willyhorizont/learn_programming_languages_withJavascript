@@ -1,5 +1,8 @@
 <?php
     $php_array_find = function() {
+        // There's no JavaScript-like Array.find() in PHP.
+        // But, we can create our own function to achieve the same thing in PHP.
+
         // JavaScript-like Array.find() function
         $array_find = function($an_array, $callback_function) {
             $data_found = null;

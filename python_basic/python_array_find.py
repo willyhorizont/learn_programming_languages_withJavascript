@@ -2,6 +2,9 @@ import json
 
 
 def python_array_find():
+    # There's no JavaScript-like Array.find() in Python.
+    # But, we can create our own function to achieve the same thing in Python.
+
     # JavaScript-like Array.find() function
     def array_find(an_array, callback_function):
         data_found = None

@@ -4,11 +4,13 @@ const javascriptArrayFind = () => {
     const numbers = [12, 34, 27, 23, 65, 93, 36, 87, 4, 254];
 
     const evenNumberFound = numbers.find((number) => number % 2 === 0);
-    console.log('even number found:', JSON.stringify(evenNumberFound));
+    const evenNumberFoundFormatted = JSON.stringify(evenNumberFound);
+    console.log('even number found:', evenNumberFoundFormatted);
     // even number found: 12
 
     const oddNumberFound = numbers.find((number) => number % 2 !== 0);
-    console.log('odd number found:', JSON.stringify(oddNumberFound), '\n\n\n');
+    const oddNumberFoundFormatted = JSON.stringify(oddNumberFound);
+    console.log('odd number found:', oddNumberFoundFormatted, '\n\n\n');
     // odd number found: 27
 
     // ======================================================================================================================================================
@@ -23,7 +25,8 @@ const javascriptArrayFind = () => {
     ];
 
     const productFound = products.find((product) => product.id === 'id_2');
-    console.log('product found:', JSON.stringify(productFound));
+    const productFoundFormatted = JSON.stringify(productFound);
+    console.log('product found:', productFoundFormatted);
     // product found: {"id":"id_2","price":233}
 };
 

@@ -14,16 +14,16 @@ def python_spread_operator():
     car = {'wheels': 4, 'tires': 4}
 
     minivan_car = {**car, 'doors': 4}
-    print('minivan_car:', minivan_car)
-    # minivan_car: {'wheels': 4, 'tires': 4, 'doors': 4}
+    print('minivan car:', minivan_car)
+    # minivan car: {'wheels': 4, 'tires': 4, 'doors': 4}
 
     sports_car = {**car, 'doors': 2}
-    print('sports_car:', sports_car)
-    # sports_car: {'wheels': 4, 'tires': 4, 'doors': 2}
+    print('sports car:', sports_car)
+    # sports car: {'wheels': 4, 'tires': 4, 'doors': 2}
 
     red_sports_car = {**car, 'doors': 2, 'color': 'red'}
-    print('red_sports_car:', red_sports_car)
-    # red_sports_car: {'wheels': 4, 'tires': 4, 'doors': 2, 'color': 'red'}
+    print('red sports car:', red_sports_car)
+    # red sports car: {'wheels': 4, 'tires': 4, 'doors': 2, 'color': 'red'}
 
 
 if __name__ == '__main__':

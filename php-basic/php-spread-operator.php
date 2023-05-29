@@ -4,8 +4,9 @@
 
         $fruits_in_my_refrigerator = ['apple', 'mango', 'orange'];
         $fruits_I_bought_from_supermarket = ['melon', 'banana'];
-        $my_fruits = json_encode([...$fruits_in_my_refrigerator, ...$fruits_I_bought_from_supermarket]);
-        echo("my fruits: $my_fruits<br /><br /><br />");
+        $my_fruits = [...$fruits_in_my_refrigerator, ...$fruits_I_bought_from_supermarket];
+        $my_fruits_formatted = json_encode($my_fruits);
+        echo("my fruits: $my_fruits_formatted<br /><br /><br />");
         // my fruits: ["apple","mango","orange","melon","banana"]
 
         // ======================================================================================================================================================
@@ -15,15 +16,18 @@
         $car = ['wheels' => 4, 'tires' => 4];
     
         $minivan_car = [...$car, 'doors' => 4];
-        echo('minivan car: ' . json_encode($minivan_car) . '<br /><br />');
+        $minivan_car_formatted = json_encode($minivan_car);
+        echo("minivan car: $minivan_car_formatted<br /><br />");
         // minivan car: {"wheels":4,"tires":4,"doors":4}
 
         $sports_car = [...$car, 'doors' => 2];
-        echo('sports car: ' . json_encode($sports_car) . '<br /><br />');
+        $sports_car_formatted = json_encode($sports_car);
+        echo("sports car: $sports_car_formatted<br /><br />");
         // sports car: {"wheels":4,"tires":4,"doors":2}
 
         $red_sports_car = [...$car, 'doors' => 2, 'color' => 'red'];
-        echo('red sports car: ' . json_encode($red_sports_car) . '<br /><br />');
+        $red_sports_car_formatted = json_encode($red_sports_car);
+        echo("red sports car: $red_sports_car_formatted<br /><br />");
         // red sports car: {"wheels":4,"tires":4,"doors":2,"color":"red"}  
     };
 ?>

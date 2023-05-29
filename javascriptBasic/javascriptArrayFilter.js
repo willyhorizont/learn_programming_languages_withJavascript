@@ -4,11 +4,13 @@ const javascriptArrayFilter = () => {
     const numbers = [12, 34, 27, 23, 65, 93, 36, 87, 4, 254];
 
     const evenNumbersOnly = numbers.filter((number) => number % 2 === 0);
-    console.log('even numbers only:', JSON.stringify(evenNumbersOnly));
+    const evenNumbersOnlyFormatted = JSON.stringify(evenNumbersOnly)
+    console.log('even numbers only:', evenNumbersOnlyFormatted);
     // even numbers only: [12,34,36,4,254]
 
     const oddNumbersOnly = numbers.filter((number) => number % 2 !== 0);
-    console.log('odd numbers only:', JSON.stringify(oddNumbersOnly), '\n\n\n');
+    const oddNumbersOnlyFormatted = JSON.stringify(oddNumbersOnly)
+    console.log('odd numbers only:', oddNumbersOnlyFormatted, '\n\n\n');
     // odd numbers only: [27,23,65,93,87]
 
     // ======================================================================================================================================================

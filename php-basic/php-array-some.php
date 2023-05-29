@@ -1,11 +1,14 @@
 <?php
     $php_array_some = function() {
+        // There's no JavaScript-like Array.some() in PHP.
+        // But, we can create our own function to achieve the same thing in PHP.
+
         // JavaScript-like Array.some() function
         $array_some = function($an_array, $callback_function) {
             $is_data_found = false;
             foreach ($an_array as $an_array_index => $array_item) {
                 $is_data_found = $callback_function($array_item, $an_array_index, $an_array);
-                if ($is_data_found) return $is_data_found;
+                if ($is_data_found) break;
             }
             return $is_data_found;
         };

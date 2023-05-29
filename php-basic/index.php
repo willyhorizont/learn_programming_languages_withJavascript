@@ -10,6 +10,8 @@
     <body>
         <div id="root"><h1>Welcome to My PHP Playground</h1></div>
         <?php
+            // require 'php-string-split.php';
+            // $php_string_split();
             // require 'php-array-filter.php';
             // $php_array_filter();
             // require 'php-array-find.php';
@@ -44,6 +46,8 @@
             // $php_http_request();
             // require 'php-optional-chaining.php';
             // $php_optional_chaining();
+            // require 'php-nullish-coalescing.php';
+            // $php_nullish_coalescing();
         ?>
     </body>
 </html>

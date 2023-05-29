@@ -8,11 +8,11 @@
         $http_request_result = curl_exec($request);
         curl_close ($request);
 
-        echo("<pre>http_request_result: ");
+        echo("<pre>http request result: ");
         print_r($http_request_result);
         echo("</pre>");
 
-        // http_request_result: {
+        // http request result: {
         //     "userId": 1,
         //     "id": 1,
         //     "title": "delectus aut autem",

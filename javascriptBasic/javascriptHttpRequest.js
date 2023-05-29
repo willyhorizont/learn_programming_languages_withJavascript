@@ -11,7 +11,8 @@ const javascriptHttpRequest = async () => {
     };
 
     const httpRequestResult = await makeHttpRequest();
-    console.log('httpRequestResult', JSON.stringify(httpRequestResult, null, ' '.repeat(4)));
+    const httpRequestResultFormatted = JSON.stringify(httpRequestResult, null, ' '.repeat(4));
+    console.log('httpRequestResult', httpRequestResultFormatted);
     // httpRequestResult {
     //     "userId": 1,
     //     "id": 1,

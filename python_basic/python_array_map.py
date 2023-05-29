@@ -6,7 +6,8 @@ def python_array_map():
 
     numbers = [12, 34, 27, 23, 65, 93, 36, 87, 4, 254]
     numbers_labeled = list(map(lambda number: {number: 'even' if number % 2 == 0 else 'odd'}, numbers))
-    print('labeled numbers:', json.dumps(numbers_labeled), '\n\n')
+    numbers_labeled_formatted = json.dumps(numbers_labeled)
+    print('labeled numbers:', numbers_labeled_formatted, '\n\n')
     # labeled numbers: [{"12": "even"}, {"34": "even"}, {"27": "odd"}, {"23": "odd"}, {"65": "odd"}, {"93": "odd"}, {"36": "even"}, {"87": "odd"}, {"4": "even"}, {"254": "even"}]
 
     # ======================================================================================================================================================

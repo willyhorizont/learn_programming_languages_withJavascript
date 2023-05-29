@@ -3,7 +3,8 @@ const javascriptArrayMap = () => {
 
     const numbers = [12, 34, 27, 23, 65, 93, 36, 87, 4, 254];
     const numbersLabeled = numbers.map((number) => ({ [number]: number % 2 === 0 ? 'even' : 'odd' }));
-    console.log('labeled numbers:', JSON.stringify(numbersLabeled), '\n\n\n');
+    const numbersLabeledFormatted = JSON.stringify(numbersLabeled);
+    console.log('labeled numbers:', numbersLabeledFormatted, '\n\n\n');
     // labeled numbers: [{"12":"even"},{"34":"even"},{"27":"odd"},{"23":"odd"},{"65":"odd"},{"93":"odd"},{"36":"even"},{"87":"odd"},{"4":"even"},{"254":"even"}]
 
     // ======================================================================================================================================================
